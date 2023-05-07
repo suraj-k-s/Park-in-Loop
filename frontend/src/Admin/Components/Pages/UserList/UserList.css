@@ -1,0 +1,31 @@
+.userList{
+    flex: 5;
+    
+    margin-left: 10px;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.userListContainer{
+    padding: 20px;
+    height: 72%;
+}
+.userListTitle{
+    margin-bottom: 20px;
+}
+.userListView{
+    font-size: 20px;
+    height: 100%;
+    width: 92%;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    background-color: white;
+}
+.userListUser{
+    display: flex;
+    align-items: center;
+}
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}
+  

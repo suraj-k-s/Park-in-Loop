@@ -1,0 +1,101 @@
+.ownerEditService{
+  background: linear-gradient(to bottom, rgba(85, 85, 99, 0.781),rgba(255, 255, 255, 0.178) );
+  height: fit-content;
+    padding: 20px;
+  }
+  .ownerEditServiceContainer{
+    margin: 20px 0px  0px 250px;
+    width: 700px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.911),rgba(255, 255, 255, 0.178) ); 
+    border-radius: 6px;
+    height: fit-content;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+  }
+  .ownerAddServiceHeader{
+    padding: 10px;
+    margin: 10px 100px;
+  }
+  .ownerAddServiceFormWrapper{
+    margin: 40px 30px;
+  
+  }
+  .ownerAddServiceFormOption{
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      margin-left: 50px;
+  }
+  .ownerAddServiceFormOptionContent{
+  
+      font-size: 14px;
+      margin-left: 50px;
+  }
+  .ownerAddServiceFormOptionRadio{
+      margin-left: 10px;
+  }
+  .ownerAddServiceFormRow{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .ownerAddServiceFormLabel{
+    width: 100px;
+    text-align: right;
+  }
+  .ownerAddServiceFormBox{
+    margin-left: 10px;
+  }
+  .ownerAddServiceFormInput{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+  }
+  .ownerAddServiceFormRowBtnSubmit{
+    margin-left: 110px;
+    width: 260px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ownerAddServiceFormSubmit{
+    width: 90px;
+    border: none;
+    background-color: rgb(16, 169, 230);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .ownerAddServiceFormSubmit:hover{
+      background-color: lightgray;
+      color: rgb(16, 169, 230);
+  }
+  .ownerAddServiceFormFinish{
+    width: 90px;
+    border: none;
+    background-color: rgb(54, 136, 54);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .ownerAddServiceFormFinish:hover{
+      background-color: lightgray;
+      color: rgb(54, 136, 54);
+  }
+  .ownerserviceView{
+    margin-left: 120px;
+    height: 220px;
+    width: 450px;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    background-color: white;
+  }
+  

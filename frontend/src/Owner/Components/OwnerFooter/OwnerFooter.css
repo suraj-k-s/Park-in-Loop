@@ -1,0 +1,14 @@
+.guestFooter{
+    height: 40px;
+    background-color: white;
+}
+.guestFooterContainer{
+    text-align: center;
+    font-size: 12px;
+}
+.guestFooterCopyrightWrapper{
+    display: flex;
+    align-items: center ;
+    margin-left: 46%;
+    padding-bottom: 10px;
+}

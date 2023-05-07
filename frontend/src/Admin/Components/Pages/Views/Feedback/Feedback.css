@@ -1,0 +1,29 @@
+.feedback{
+    flex: 5;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.feedbackContainer{
+    margin: 20px 100px 0px 100px;
+    padding: 10px;
+}
+.feedbackTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedbackView{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 95%;
+    height:400px;
+    background-color: white ;
+    
+}
+.feedbackListViewButton{
+    color: #4169E1;
+}
+.userListDelete{
+    margin-left: 10px;
+}

@@ -1,0 +1,70 @@
+.parkingFacility{
+    flex: 5;
+    padding: 10px;
+    margin-right: 0px;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+
+}
+.parkingFacilityContainer{
+    display: flex;
+    margin-top: 40px;
+    padding-left: 20px;
+    position:sticky;
+}
+.parkingFacilityShow{
+    flex: 1;
+    padding: 20;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+}
+.parkingFacilityServiceShow{
+    flex: 2.5;
+    padding: 20;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    margin: 0px 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.parkingFacilityShowTop{
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 20px;
+}
+.parkingFacilityShowBottom{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.parkingFacilityShowTitle{
+    font-size: 14px;
+    font-weight: 500;
+    color: lightgrey;
+    margin-left: 10px;
+}
+.parkingFacilityShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    color: #444;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.parkingFacilityShowIcon{
+    font-size: 18px !important;
+}
+.parkingFacilityShowInfoTitle{
+    margin-left: 10px;
+}
+.viewParkingFacility{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.parkingFacilityBarGraphContainer{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}

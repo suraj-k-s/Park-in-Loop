@@ -1,0 +1,26 @@
+.booking{
+    flex: 5;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.bookingContainer{
+    margin: 20px 100px 0px 100px;
+    padding: 10px;
+}
+.bookingTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bookingView{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+    height:400px;
+    background-color: white ;
+    
+}
+.userListDelete{
+    margin-left: 10px;
+}

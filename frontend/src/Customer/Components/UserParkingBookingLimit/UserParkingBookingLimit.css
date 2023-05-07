@@ -1,0 +1,82 @@
+.userParkingBookingLimit{
+    background-image: linear-gradient(to bottom, rgba(85, 85, 99, 0.781),rgba(255, 255, 255, 0.178) );
+    height: 425px;
+    padding: 20px;
+  }
+  .userParkingBookingLimitContainer{
+    margin: 20px auto;
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.911),rgba(255, 255, 255, 0.178) ); 
+    border-radius: 6px;
+    height: 480px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+  }
+  .userParkingBookingLimitHeader{
+    padding: 10px;
+    margin: 10px 40px;
+  }
+  .userParkingBookingLimitFormWrapper{
+    margin: 70px 50px;
+  
+  }
+  .userParkingBookingLimitFormRow{
+    display: flex;
+    margin: 30px 0px;
+  }
+  .userParkingBookingLimitFormLabel{
+    width: 130px;
+    text-align: right;
+  }
+  .userParkingBookingLimitFormBox{
+    margin-left: 10px;
+  }
+  .userParkingBookingLimitFormInput{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 230px;
+    height: 30px;
+  }
+  .userParkingBookingLimitFormBoxNote{
+    font-size: 10px;
+    width: 230px;
+    color: gray;
+    margin-left: 140px;
+    text-align: justify;
+  }
+  .userParkingBookingLimitFormRowBtnSubmit{
+    margin-left: 100px;
+    display: flex;
+  }
+  .userParkingBookingLimitFormSubmit{
+    width: 90px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .userParkingBookingLimitFormSubmit:hover{
+      background-color: lightgray;
+      color: green;
+  }
+  .userParkingBookingLimitFormCancel{
+    width: 90px;
+    border: none;
+    background-color: rgb(177, 10, 10);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .userParkingBookingLimitFormCancel:hover{
+      background-color: lightgray;
+      color: rgb(177, 10, 10);
+  }
+  

@@ -1,0 +1,72 @@
+.userTopBar{
+    height: 50px;
+    width: 100%;
+    background-color: #0a0a2bf3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 245, 187);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.userTopBarTitle{
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: rgb(145, 198, 245);
+    cursor: pointer;
+}
+.userTopBarTitleStyle1{
+    color: white;
+}
+.userTopBarOthersWrapper{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-right: 30px;
+}
+.userTopBarOthers{
+    color: white;
+    padding: 0px 10px;
+    height: 25px;
+    border-right: 2px solid white;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    width: 160px;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    background-color: lightgray;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right:-40px;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: darkcyan;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }

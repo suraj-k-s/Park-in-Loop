@@ -1,0 +1,131 @@
+.userBookingView{
+    background: linear-gradient(to bottom,#0a0a2bf3,lightblue);
+    height: 560px;
+    padding: 10px;  
+}
+.userBookingViewTitleWrapper{
+    margin: 50px 130px;
+}
+.userBookingViewTitle{
+    color: white;
+}
+.userBookingViewContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.userBookingViewDetailsWrapper{
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,lightsteelblue,lightblue);
+}
+.userBookingViewDetailsRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.userBookingViewDetailsIcon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.userBookingFeedbackContainer{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    height: 250px;
+    justify-content: space-evenly;
+   
+
+}
+.userBookingFeedbackform{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom,lightsteelblue,lightblue);
+    border-radius: 10px;
+}
+.userBookingFeedback{
+    height: 80px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.userBookingFeedbackBtnSubmit{
+    width: 100px;
+    height: 35px;
+    background-color: #18183ff3;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userBookingFeedbackBtnSubmit:hover{
+    background-color: lightgray;
+    color: #18183ff3;
+}
+.userBookingComplaintContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+}
+.userBookingComplaintform{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom,lightsteelblue,lightblue);
+    border-radius: 10px;
+}
+.userBookingComplaint{
+    height: 70px;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.userBookingComplaintBtnSubmit{
+    width: 100px;
+    height: 35px;
+    background-color: #18183ff3;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userBookingComplaintBtnSubmit:hover{
+    background-color: lightgray;
+    color: #18183ff3;
+    
+}
+.userBookingComplaintBtnSubmitElse{
+    background-color: gray;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+}
+.userBookingComplaintViewContainer{
+    width: 300px;
+    height: fit-content;
+    text-align: justify;
+}
+.userBookingComplaintViewReply{
+    font-size: 13px;
+}
+textarea:focus{
+    outline: none;
+}

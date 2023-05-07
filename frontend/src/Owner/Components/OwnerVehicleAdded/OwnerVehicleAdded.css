@@ -1,0 +1,51 @@
+.ownerVehicleAdded{
+    background-image: linear-gradient(to bottom, rgba(85, 85, 99, 0.781),rgba(255, 255, 255, 0.178) );
+    height: 425px;
+    padding: 20px;
+}
+.ownerVehicleAddedContainer{
+    margin: 30px auto;
+    width: 50%;
+    background:linear-gradient(to bottom,rgba(255, 255, 255, 0.651),rgba(255, 255, 255, 0));
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+.ownerVehicleAddedConfetti{
+    margin: 100px 400px;
+}
+.ownerVehicleAddedTitleWrapper{
+    margin: 40px 0px;
+}
+.ownerVehicleAddedTitle{
+    font-size: 20px;
+}
+.ownerVehicleAddedContentWrapper{
+    margin-top: 50px;
+}
+.ownerVehicleAddedContent{
+    font-size: 35px;    
+    font-weight: 600;
+}
+.ownerVehicleAddedContentSlot{
+    font-size: 40px;
+    color: red;
+}
+.ownerVehicleAddedButtonWrapper{
+    margin-top: 50px;
+}
+.ownerVehicleAddedButton{
+    padding: 5px;
+    width: 90px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.ownerVehicleAddedButton:hover{
+    background-color: rgb(179, 179, 179);
+    color: green;
+}

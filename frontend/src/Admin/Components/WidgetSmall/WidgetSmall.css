@@ -1,0 +1,49 @@
+.widgetSmall{
+    flex: 1;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px darkcyan;
+    padding: 20px;
+    margin-right: 20px;
+}
+.widgetSmallTitle{
+    font-size: 20px;
+    font-weight: 700;    
+}
+.widgetSmallTable{
+    margin-top: 25px;
+    padding: 0;
+}
+.widgetSmallTableHead{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.widgetSmallTr{
+    height: 50px;
+}
+.widgetSmallTd{
+    font-weight: 500;
+    width: 200px;
+}
+.widgetSmallTd2{
+    font-weight: 500;
+    width: 80px;
+}
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+.widgetSmallButton:hover{
+    background-color: skyblue;
+    color: black;
+    transform: scale(1.1);
+}
+.widgetSmallIcon{
+    font-size: 16px !important;
+    align-items: center;
+}

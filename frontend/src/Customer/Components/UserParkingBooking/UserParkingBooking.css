@@ -1,0 +1,82 @@
+.userParkingBooking{
+    background-image: linear-gradient(to bottom, rgba(85, 85, 99, 0.781),rgba(255, 255, 255, 0.178) );
+    height: 425px;
+    padding: 20px;
+  }
+  .userParkingBookingContainer{
+    margin: 20px 0px  0px 350px;
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.911),rgba(255, 255, 255, 0.178) ); 
+    border-radius: 6px;
+    height: 400px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+  }
+  .userParkingBookingHeader{
+    padding: 10px;
+    margin: 10px 40px;
+  }
+  .userParkingBookingFormWrapper{
+    margin: 70px 50px;
+  
+  }
+  .userParkingBookingFormRow{
+    display: flex;
+    margin: 30px 0px;
+  }
+  .userParkingBookingFormLabel{
+    width: 130px;
+    text-align: right;
+  }
+  .userParkingBookingFormBox{
+    margin-left: 10px;
+  }
+  .userParkingBookingFormInput{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 230px;
+    height: 30px;
+  }
+  .userParkingBookingFormBoxNote{
+    font-size: 10px;
+    width: 230px;
+    color: gray;
+    margin-left: 140px;
+    text-align: justify;
+  }
+  .userParkingBookingFormRowBtnSubmit{
+    margin-left: 100px;
+    display: flex;
+  }
+  .userParkingBookingFormSubmit{
+    width: 90px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .userParkingBookingFormSubmit:hover{
+      background-color: lightgray;
+      color: green;
+  }
+  .userParkingBookingFormCancel{
+    width: 90px;
+    border: none;
+    background-color: rgb(177, 10, 10);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .userParkingBookingFormCancel:hover{
+      background-color: lightgray;
+      color: rgb(177, 10, 10);
+  }
+  

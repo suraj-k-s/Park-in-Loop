@@ -1,0 +1,25 @@
+.userMyBookings{
+    background: linear-gradient(to bottom,#0a0a2bf3,lightblue);
+    height: 560px;
+    padding: 10px;  
+}
+.userMyBookingsContainer{
+    background:linear-gradient(to bottom,lightgray,rgba(255, 255, 255, 0.705));
+    width: 55%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.userMyBookingsTitleWrapper{
+    margin: 20px 280px;
+}
+.userMyBookingsTitle{
+    color: white;
+}
+.userMyBookingsView{
+    height: 360px;
+}
+.userFeedbackViewButton{
+    color: #0532b9;
+    cursor: pointer;
+}

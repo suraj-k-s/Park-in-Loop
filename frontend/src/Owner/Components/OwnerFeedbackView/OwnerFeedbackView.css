@@ -1,0 +1,52 @@
+.ownerFeedbackView{
+    height: 510px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,rgba(85, 85, 99, 0.781),white);
+
+}
+.ownerFeedbackViewContainer{
+    margin: 20px auto;
+    width: 80%;
+}
+.ownerFeedbackViewTitleContainer{
+    margin-left: 20px;
+}
+.ownerFeedbackViewFeedbackContainer{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ownerFeedbackViewFeedbackTop{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+}
+.ownerFeedbackViewFeedbackInfoTitle{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.ownerFeedbackViewFeedbackInfoLogo{
+    font-size: 17px !important;
+}
+.ownerFeedbackViewFeedbackInfo{
+    margin-left: 10px;
+}.ownerFeedbackViewFeedbackBottom{
+    margin-top: 30px;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.ownerFeedbackViewFeedbackBottomTitile{
+    margin-top: 10px;
+    padding: 10px;
+}
+.ownerFeedbackViewFeedbackBottomContent{
+    margin-top: 10px;
+    padding: 10px;
+}

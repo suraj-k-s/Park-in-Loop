@@ -1,0 +1,114 @@
+.ownerHome{
+    padding: 0px;  
+}
+.ownerHomeContainer{
+    background-image: url(../../../Assets/ownerhome.gif);
+    height: 565px;
+    background-size: 100% 100%;
+    padding: 10px;
+}
+.ownerHomeBannerWrapper{
+    background:linear-gradient(to bottom,rgba(51, 51, 51, 0.644),rgba(230, 230, 230, 0));
+    width: 50.3%;
+    margin: 80px 347px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ownerHomeBannerTitleWrapper{
+    text-align: center;
+    padding: 20px;
+}
+.ownerHomeBannerTitle{
+    font-size: 30px;
+    color:white;
+}
+.ownerHomeBannerContentWraper{
+    text-align: center;
+    margin-top: 30px;
+}
+.ownerHomeBannerButtonWrapper{
+    text-align: center;
+    margin: 25px;
+}
+.ownerHomeBannerButton{
+    border: 0px;
+    padding: 7px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(12, 87, 158, 0.829);
+    cursor: pointer;
+    
+}
+.ownerHomeBannerButton:hover{
+    background-color: rgb(3, 63, 119);
+    color: white;
+}
+.ownerHomeBottomContainer{
+    background: linear-gradient(to bottom,rgba(85, 85, 99, 0.849) ,white);
+    height: fit-content;
+    padding: 10px;
+}
+.ownerHomeBottomWrapper1{
+    margin:40px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.ownerHomeBottomWrapper1Text{
+    margin-left: 80px;
+}
+.ownerHomeBottomWrapper1Title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.ownerHomeBottomWrapper1Content{
+    margin-top: 20px;
+}
+.ownerHomeBottomButtonWrapper{
+    margin: 20px 00px;
+}
+.ownerHomeBottomButton{
+    padding: 5px;
+    width: 70px;
+    border-radius: 8px;
+    background-color: rgba(12, 87, 158, 0.829);;
+    border: 0px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.ownerHomeBottomButton:hover{
+    background-color: rgb(3, 63, 119);
+    color: white;
+    font-weight: 500;
+}
+.ownerHomeBottomWrapper1Image{
+    margin-right: 100px;
+}
+.ownerHomeBottomImg{
+    font-size: 120px !important;
+}
+.ownerHomeBottomWrapper2{
+    display: flex;
+    margin: 40px 80px;
+    border-bottom: 1px solid gray;
+}
+.ownerHomeBottomWrapper2Image{
+    margin-left: 120px;
+}
+.ownerHomeBottomWrapper2Text{
+    margin-left: 350px;
+}
+.ownerHomeBottomWrapper2Title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.ownerHomeBottomWrapper2Content{
+    margin-top: 20px;
+
+}

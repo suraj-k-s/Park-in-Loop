@@ -1,0 +1,89 @@
+.ownerAddService{
+    background-image: linear-gradient(to bottom, rgba(85, 85, 99, 0.781),rgba(255, 255, 255, 0.178) );
+    height: 425px;
+    padding: 20px;
+  }
+  .ownerAddServiceContainer{
+    margin: 20px 0px  0px 300px;
+    width: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.911),rgba(255, 255, 255, 0.178) ); 
+    border-radius: 6px;
+    height: 400px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+  }
+  .ownerAddServiceHeader{
+    margin: 10px;
+  }
+  .ownerAddServiceFormWrapper{
+    margin: 40px 0px;
+  
+  }
+  .ownerAddServiceFormOption{
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+  }
+  .ownerAddServiceFormOptionContent{
+  
+      font-size: 14px;
+      margin-right: 10px;
+  }
+  .ownerAddServiceFormOptionRadio{
+      margin-left: 10px;
+  }
+  .ownerAddServiceFormRow{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .ownerAddServiceFormLabel{
+    width: 100px;
+    text-align: right;
+  }
+  .ownerAddServiceFormBox{
+    margin-left: 10px;
+  }
+  .ownerAddServiceFormInput{
+    border: 0px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 250px;
+    height: 30px;
+  }
+  .ownerAddServiceFormRowBtnSubmit{
+    margin-left: 70px;
+    width: 260px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ownerAddServiceFormSubmit{
+    width: 90px;
+    border: none;
+    background-color: rgb(16, 169, 230);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .ownerAddServiceFormSubmit:hover{
+      background-color: lightgray;
+      color: rgb(16, 169, 230);
+  }
+  .ownerAddServiceFormFinish{
+    width: 90px;
+    border: none;
+    background-color: rgb(54, 136, 54);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .ownerAddServiceFormFinish:hover{
+      background-color: lightgray;
+      color: rgb(54, 136, 54);
+  }
+  

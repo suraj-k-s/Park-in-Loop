@@ -1,0 +1,39 @@
+.location{
+    flex: 5;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.locationContainer{
+    margin: 20px 100px 0px 100px;
+    padding: 10px;
+}
+.locationTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.locationButtonWrapper{
+    margin-right: 200px;
+    border: none;
+}
+.locationButton{
+    border: none;
+    background-color: #87CEEB;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.locationView{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 85%;
+    height:400px;
+    background-color: white ;
+    
+}
+.locationDelete{
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}

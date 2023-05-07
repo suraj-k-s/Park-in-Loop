@@ -1,0 +1,32 @@
+.parkingFacilityList{
+    flex: 5;
+    padding: 0px;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.parkingFacilityListContainer{
+        height: 85%;
+        width: 90%;
+        padding: 20px;
+        margin: 10px 0 0 10px;
+}
+.parkingFacilityListView{
+    cursor: pointer;
+    color: darkcyan;
+    height: 73%;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    background-color: white;
+}
+.parkingFacilityListViewButton{
+    color: darkcyan;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.parkingFacilityListDelete{
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+}

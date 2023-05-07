@@ -1,0 +1,39 @@
+.serviceType{
+    flex: 5;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.serviceTypeContainer{
+    margin: 20px 100px 0px 100px;
+    padding: 10px;
+}
+.serviceTypeTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.serviceTypeButtonWrapper{
+    margin-right: 260px;
+    border: none;
+}
+.serviceTypeButton{
+    border: none;
+    background-color: #87CEEB;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.serviceTypeView{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 70%;
+    height:400px;
+    background-color: white ;
+    
+}
+.servicetypeListDelete{
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}

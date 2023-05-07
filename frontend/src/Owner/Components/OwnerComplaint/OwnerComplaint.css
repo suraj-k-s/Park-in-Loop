@@ -1,0 +1,31 @@
+.ownerComplaint{
+    height: 510px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,rgba(85, 85, 99, 0.781),white);
+}
+.ownerComplaintContainer{
+    margin: 20px 290px;
+    padding: 10px;
+    width: 72%;
+}
+.ownerComplaintTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ownerComplaintTable{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 65%;
+    height:380px;
+    background-color: white ;
+    
+}
+.ownerComplaintListViewButton{
+    color: #4169E1;
+}
+.userListDelete{
+    margin-left: 10px;
+}

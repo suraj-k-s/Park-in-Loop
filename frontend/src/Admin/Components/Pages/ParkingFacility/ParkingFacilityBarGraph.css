@@ -1,0 +1,10 @@
+.ParkingFacilityBarGraph{
+    margin: 20px;
+    padding: 10px;
+}
+.ParkingFacilityBarGraphTitle{
+    margin-bottom: 20px;
+}
+.ParkingFacilityBarGraphTooltip{
+    fill: blueviolet;
+}

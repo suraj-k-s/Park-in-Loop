@@ -1,0 +1,58 @@
+.ownerAnalysis{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(85, 85, 99, 0.781),
+        rgba(255, 255, 255, 0.178)
+      );
+      height: 510px;
+      padding: 10px;
+}
+.ownerAnalysisContainer{
+    height: 400px;
+    padding: 10px;
+  
+}
+.ownerAnalysisTitleWrapper{
+    margin: 20px 100px   ;
+}
+.ownerAnalysisChartWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px 100px
+
+}
+.ownerAnalysisLineChart{
+    margin: 0px;
+    height: 300px;
+    width: 50%;
+    background:linear-gradient(to bottom,rgba(128, 128, 128, 0.441),white);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+
+.ownerAnalysisLineChartDescription{
+    margin: 10px 200px;
+    font-size: 14px;
+    color: gray;
+}
+.ownerAnalysisPie{
+    margin-right: 120px;
+    width: 300px;
+    height: 340px;
+    background:linear-gradient(to bottom,rgba(128, 128, 128, 0.441),white);
+    border-radius: 10px;
+    border: 2px solid gray;
+
+}
+.ownerAnalysisPieDescriptionWrapper{
+    margin-left: 70px;
+}
+.ownerAnalysisPieDescription{
+    margin-top: 15px;
+    font-size: 14px;
+    color: gray;
+}

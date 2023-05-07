@@ -1,0 +1,15 @@
+.userFooter{
+    height: 40px;
+    background-color: white;
+
+}
+.userFooterContainer{
+    text-align: center;
+    font-size: 12px;
+}
+.userFooterCopyrightWrapper{
+    display: flex;
+    align-items: center ;
+    margin-left: 46%;
+    padding-bottom: 10px;
+}

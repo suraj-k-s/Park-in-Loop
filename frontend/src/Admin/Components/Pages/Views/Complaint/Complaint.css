@@ -1,0 +1,29 @@
+.complaint{
+    flex: 5;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+}
+.complaintContainer{
+    margin: 20px 100px 0px 100px;
+    padding: 10px;
+}
+.complaintTitleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.complaintView{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 95%;
+    height:400px;
+    background-color: white ;
+    
+}
+.complaintListViewButton{
+    color: #4169E1;
+}
+.userListDelete{
+    margin-left: 10px;
+}

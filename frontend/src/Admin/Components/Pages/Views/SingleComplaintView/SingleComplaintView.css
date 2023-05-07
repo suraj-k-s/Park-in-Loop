@@ -1,0 +1,81 @@
+.singleComplaintView{
+    flex:5;
+    padding: 10px;
+    background-image: linear-gradient(to right,white,rgb(221, 255, 255));
+
+}
+.singleComplaintViewContainer{
+    margin: 10px;
+}
+.singleComplaintViewTitleContainer{
+    margin-left: 20px;
+}
+.singleComplaintViewComplaintContainer{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.singleComplaintViewComplaintTop{
+    display: flex;
+}
+.singleComplaintViewComplaintTopLeft{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+}
+.singleComplaintViewComplaintTopRight{
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+}
+.singleComplaintViewComplaintInfoTitle{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.singleComplaintViewComplaintInfoLogo{
+    font-size: 17px !important;
+}
+.singleComplaintViewComplaintInfo{
+    margin-left: 10px;
+}
+.singleComplaintViewComplaintReplyInfoTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.singleComplaintViewComplaintTopRight{
+    margin-left: 30px;
+}
+.singleComplaintViewComplaintTopRightTitle{
+    padding: 10px;
+}
+.singleComplaintViewComplaintReplyLogo{
+    margin-left: 5px;
+    font-size: 17px !important;
+}
+.singleComplaintViewComplaintReplyInfo{
+    margin-left: 10px;
+}
+.singleComplaintViewComplaintBottom{
+    margin-top: 30px;
+    -webkit-box-shadow: 4px 4px 9px -1px #000000; 
+    box-shadow: 4px 4px 9px -1px #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.singleComplaintViewComplaintBottomTitile{
+    margin-top: 10px;
+    padding: 5px;
+}
+.singleComplaintViewComplaintBottomContent{
+    margin-top: 5px;
+    padding:5px;
+}

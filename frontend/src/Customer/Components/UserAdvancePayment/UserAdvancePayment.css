@@ -1,0 +1,150 @@
+.userAdvancePayment{
+    padding: 20px;
+    background: linear-gradient(to bottom,#0a0a2bf3,white);
+    height: 455px;
+}
+
+.userAdvancePaymentContainer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+}
+.userAdvancePaymentDetailsWrapper{
+    width: 40%;
+    background: linear-gradient(to bottom,lightsteelblue,white) ;
+    padding: 20px;
+    height: 300px;
+    border-right: 2px solid black;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.userAdvancePaymentDetailsTitleWrapper{
+    margin-left: 20px;
+}
+.userAdvancePaymentDetailsTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.userAdvancePaymentDetailsRow{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    align-items: center;
+}
+.userAdvancePaymentDetailsIcon{
+    font-size: 20px !important;
+    margin-right: 20px;
+}
+.userAdvancePaymentDetailsRsIcon{
+    color: red;
+    font-size: 17px !important;
+    margin-left: 10px;
+}
+.userAdvancePaymentDetailsRs{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+.userAdvancePaymentDetailBankWrapper{
+    margin: 10px 10px;
+}
+.userAdvancePaymentDetailBankIconWrapper{
+    margin: 10px 50px;
+}
+.userAdvancePaymentDetailBankIcon{
+    font-size: 33px;
+    margin-right: 13px;
+}
+.userAdvancePaymentFormContainer{
+    padding: 10px;
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+}
+.userAdvancePaymentFormWrapper{
+    margin: 10px;
+    
+}
+.userAdvancePaymentFormTitleWrapper{
+    margin: 20px 40px;
+}
+.userAdvancePaymentFormTitle{
+font-size: 18px;
+    font-weight: 600;
+}
+.userAdvancePaymentFormRow{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.userAdvancePaymentFormLabel{
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+.userAdvancePaymentFormLabelIcon{
+    font-size: 20px;
+}
+.userAdvancePaymentFormInput{
+    height: 17px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid gray;
+    
+}
+.userAdvancePaymentFormInputCardNum{
+    height: 17px;
+    padding: 10px;
+    width: 200px;
+    
+}
+.userAdvancePaymentFormMonth{
+    height: 25px;
+    width: 45px;
+    
+    margin-right: 10px;
+}
+.userAdvancePaymentFormYear{
+    height: 25px;
+    width: 60px;
+    
+    margin-right: 10px;
+}
+.userAdvancePaymentFormCvv{
+    height: 20px;
+    padding: 5px;
+    width: 60px;
+
+}
+.userAdvancePaymentFormInput1{
+    height: 20px;
+    padding: 5px;
+    width: 300px;
+    
+    border: 1px solid gray;
+}
+.userAdvancePaymentFormBtnWrapper{
+    margin: 20px 150px;
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.userAdvancePaymentFormPayBtn{
+    width: 180px;
+    height: 40px; 
+    padding: 7px;
+    border: 0;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #091bb9;
+    color: white;
+    cursor: pointer;
+}
+.userAdvancePaymentFormPayBtn:hover{
+    background-color: lightgray;
+    color:navy
+}

@@ -1,0 +1,73 @@
+.ownerRemoveVehicle{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(85, 85, 99, 0.781),
+    rgba(255, 255, 255, 0.178)
+  );
+  height: 425px;
+  padding: 20px;
+}
+.ownerRemoveVehicleContainer{
+    margin: 20px;
+    padding: 10px;
+}
+.ownerRemoveVehicleTitleWrapper{
+    margin-left:360px;
+}
+.ownerRemoveVehicleContentWrapper{
+    margin: 20px auto;
+    padding: 20px;
+    width: 35%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,rgba(245, 222, 179, 0.637),rgba(255, 255, 255, 0.616)) ;
+}
+.ownerRemoveVehicleContentRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ownerRemoveVehicleContentLabel{
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+}
+.ownerRemoveVehicleContentLabelLg{
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ownerRemoveVehicleContentLg{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+}
+.ownerRemoveVehicleContentIcon{
+    font-size: 15px !important;
+}
+.ownerRemoveVehicleContentBtnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 100px;
+}
+.ownerRemoveVehicleContentBtnWrapper{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.ownerRemoveVehicleContentBtnSubmit{
+    border: 0px;
+    width: 90px;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.ownerRemoveVehicleContentBtnSubmit:hover{
+    background-color: lightgray;
+    color:green
+}
